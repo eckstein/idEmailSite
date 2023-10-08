@@ -8,4 +8,4 @@
 <?php get_search_form(); ?>
 </div>
 </article>
-<?php get_footer(); ?>
+<?php get_footer(); ?> 

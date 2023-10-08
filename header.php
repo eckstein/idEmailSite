@@ -14,22 +14,23 @@
 	<div id="site-logo">
 	<a href="<?php echo get_bloginfo('url'); ?>"><img src="http://localhost/wp-content/uploads/2023/03/id-tech-icon.png"></a>
 	</div>
-	<h1 id="site-title"><a href="<?php echo get_bloginfo('url'); ?>">Email Template Wizard</a></h1>
+	<h1 id="site-title"><a href="<?php echo get_bloginfo('url'); ?>">Email Wizard</a></h1>
 	<div id="site-nav">
-		<ul>
-			<li>
-			<a class="button" href="<?php echo get_bloginfo('url'); ?>"><i class="fa fa-plus"></i>&nbsp;&nbsp;New Template</a>
-			</li>
-			<li>
-			<a class="button" href="<?php echo get_bloginfo('url'); ?>/templates/all-templates"><i class="fa fa-table-list"></i>&nbsp;&nbsp;Template List</a>
-			</li>
-			<li>
-			<a class="button" href="<?php echo get_page_link(366); ?>"><i class="fa fa-solid fa-code"></i>&nbsp;&nbsp;Code Repo</a>
-			</li>
-		</ul>
+		<?php //wp_nav_menu('main-menu'); ?>
+		<?php wp_nav_menu( array( 'theme_location' => 'primary-menu' ) ); ?>
 	</div>
-	<div id="search">
-	<?php get_search_form(); ?>
+	<div id="headerUserInfo">
+	<?php
+	// Check if a user is logged in
+	if ( is_user_logged_in() ) {
+	  // Get the current user's info
+	  $current_user = wp_get_current_user();
+	  // Display the username and logout link
+	  echo 'Logged in as ' . esc_html( $current_user->user_login ) . '&nbsp;&nbsp;<a href="' . esc_url( wp_logout_url() ) . '">logout</a>';
+	  echo '&nbsp;&nbsp;&nbsp;&nbsp;<a class="access-user-settings"><i class="fa fa-gear"></i></a>';
+	}
+	?>
+
 	</div>
 </div>
 

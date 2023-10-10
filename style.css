@@ -75,7 +75,12 @@ body {
 #branding {
 	display: flex;
 	align-items: center;
-	padding: 0 40px;
+	max-width: 1800px;
+}
+@media screen and (max-width: 1800px) {
+	#branding {
+		padding: 0 40px;
+	}
 }
 	#branding #site-logo img {
 		max-height: 32px;
@@ -141,7 +146,7 @@ body {
 	.entry-content {
 		padding: 0 40px;
 		max-width: 1800px;
-		margin: 0 auto;
+		margin: 0 auto 40px auto;
 	}
 	@media screen and (min-width: 1800px) {
 		.entry-content {

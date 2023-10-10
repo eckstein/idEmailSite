@@ -4701,7 +4701,7 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "50",
+                "width": "40",
                 "class": "",
                 "id": ""
             },
@@ -4771,7 +4771,7 @@
         },
         {
             "key": "field_63e3d784ed5b5",
-            "label": "Template Font Styles",
+            "label": "Template Styles",
             "name": "template_styles",
             "aria-label": "",
             "type": "group",
@@ -4779,12 +4779,30 @@
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-                "width": "50",
+                "width": "60",
                 "class": "",
                 "id": ""
             },
             "layout": "block",
             "sub_fields": [
+                {
+                    "key": "field_6525786a06af0",
+                    "label": "Template BG Color",
+                    "name": "template_bg_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#F4F4F4",
+                    "enable_opacity": 0,
+                    "return_format": "string"
+                },
                 {
                     "key": "field_63e3d65e2be23",
                     "label": "Desktop Font Size",
@@ -4875,7 +4893,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "50",
+                        "width": "33",
                         "class": "",
                         "id": ""
                     },
@@ -4893,7 +4911,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "50",
+                        "width": "33",
                         "class": "",
                         "id": ""
                     },
@@ -4911,7 +4929,7 @@
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
-                        "width": "50",
+                        "width": "33",
                         "class": "",
                         "id": ""
                     },
@@ -5248,5 +5266,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1696275754
+    "modified": 1696955583
 }

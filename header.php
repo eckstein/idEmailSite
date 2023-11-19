@@ -12,7 +12,7 @@
 <header id="header" role="banner">
 <div id="branding">
 	<div id="site-logo">
-	<a href="<?php echo get_bloginfo('url'); ?>"><img src="http://localhost/wp-content/uploads/2023/03/id-tech-icon.png"></a>
+	<a href="<?php echo get_bloginfo('url'); ?>"><img src="https://idemailwiz.com/wp-content/uploads/2023/10/id-tech-icon.png"></a>
 	</div>
 	<h1 id="site-title"><a href="<?php echo get_bloginfo('url'); ?>">Email Wizard</a></h1>
 	<div id="site-nav">

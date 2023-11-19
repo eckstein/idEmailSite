@@ -4668,6 +4668,156 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_654405ad8460e": {
+                    "key": "layout_654405ad8460e",
+                    "name": "two_column_wrapper",
+                    "label": "Two Column Wrapper",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_65440a09c4829",
+                            "label": "Left Column",
+                            "name": "left_column",
+                            "aria-label": "",
+                            "type": "group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_654405e484610",
+                                    "label": "Left Column Chunks",
+                                    "name": "left_column_chunks",
+                                    "aria-label": "",
+                                    "type": "flexible_content",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "layouts": {
+                                        "layout_654405f28ec52": {
+                                            "key": "layout_654405f28ec52",
+                                            "name": "button",
+                                            "label": "Button",
+                                            "display": "block",
+                                            "sub_fields": [
+                                                {
+                                                    "key": "field_6544076d84611",
+                                                    "label": "Button",
+                                                    "name": "button",
+                                                    "aria-label": "",
+                                                    "type": "clone",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "clone": [
+                                                        "field_654408fbb88bc"
+                                                    ],
+                                                    "display": "seamless",
+                                                    "layout": "block",
+                                                    "prefix_label": 0,
+                                                    "prefix_name": 0
+                                                }
+                                            ],
+                                            "min": "",
+                                            "max": ""
+                                        }
+                                    },
+                                    "min": "",
+                                    "max": "",
+                                    "button_label": "Add Row"
+                                }
+                            ]
+                        },
+                        {
+                            "key": "field_65440a4dc482a",
+                            "label": "Right Column",
+                            "name": "right_column",
+                            "aria-label": "",
+                            "type": "group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "block",
+                            "sub_fields": [
+                                {
+                                    "key": "field_65440a4dc482c",
+                                    "label": "Right Column Chunks",
+                                    "name": "right_column_chunks",
+                                    "aria-label": "",
+                                    "type": "flexible_content",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "layouts": {
+                                        "layout_654405f28ec52": {
+                                            "key": "layout_654405f28ec52",
+                                            "name": "button",
+                                            "label": "Button",
+                                            "display": "block",
+                                            "sub_fields": [
+                                                {
+                                                    "key": "field_65440a4dc482d",
+                                                    "label": "Button",
+                                                    "name": "button",
+                                                    "aria-label": "",
+                                                    "type": "clone",
+                                                    "instructions": "",
+                                                    "required": 0,
+                                                    "conditional_logic": 0,
+                                                    "wrapper": {
+                                                        "width": "",
+                                                        "class": "",
+                                                        "id": ""
+                                                    },
+                                                    "clone": [
+                                                        "field_654408fbb88bc"
+                                                    ],
+                                                    "display": "seamless",
+                                                    "layout": "block",
+                                                    "prefix_label": 0,
+                                                    "prefix_name": 0
+                                                }
+                                            ],
+                                            "min": "",
+                                            "max": ""
+                                        }
+                                    },
+                                    "min": "",
+                                    "max": "",
+                                    "button_label": "Add Row"
+                                }
+                            ]
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "min": "",
@@ -5266,5 +5416,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1696955583
+    "modified": 1698957920
 }

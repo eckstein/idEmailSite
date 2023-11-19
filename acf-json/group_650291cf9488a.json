@@ -1081,6 +1081,26 @@
             "append": ""
         },
         {
+            "key": "field_65261b3607902",
+            "label": "GA Rev Sheet URL",
+            "name": "ga_rev_sheet_url",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_6515fd6f1a1cb",
             "label": "GA Revenue API Sheet Bearer Token",
             "name": "ga_revenue_api_sheet_bearer_token",
@@ -1158,5 +1178,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1696202303
+    "modified": 1696996169
 }

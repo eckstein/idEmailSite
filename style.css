@@ -44,6 +44,8 @@ h4 {
 
 html * {
 	box-sizing: border-box;
+}
+html {
 	height: 100%;
 }
 #wrapper {
